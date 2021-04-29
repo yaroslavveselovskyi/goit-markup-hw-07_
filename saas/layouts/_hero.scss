@@ -1,5 +1,5 @@
 .section__background {
-  background-color: var(--section__background-color);
+  background-color: var(--background-color);
 }
 .overlay {
   width: 100%;
@@ -30,7 +30,7 @@
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  color: var(--section__background-text-color);
+  color: var(--background-text-color);
   text-transform: uppercase;
   margin-bottom: 30px;
 }

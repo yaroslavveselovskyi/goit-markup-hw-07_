@@ -5,16 +5,17 @@
 }
 .methods__item {
   margin-right: 30px;
-}
-&::before {
-  margin-bottom: 30px;
-  display: block;
-  content: "";
-  width: 270px;
-  height: 120px;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-color: #f5f4fa;
+
+  ::before {
+    margin-bottom: 30px;
+    display: block;
+    content: "";
+    width: 270px;
+    height: 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #f5f4fa;
+  }
 }
 ::before .icon {
   box-sizing: border-box;

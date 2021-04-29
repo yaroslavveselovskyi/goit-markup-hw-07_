@@ -27,15 +27,16 @@
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
-}
-& .icon {
-  width: 16px;
-  height: 16px;
-  stroke: inherit;
-  margin-right: 10px;
-  transition: fill var(--animation);
-}
-&:hover .icon,
-&:focus .icon {
-  fill: var(--accent-color);
+
+  .icon {
+    width: 16px;
+    height: 16px;
+    stroke: inherit;
+    margin-right: 10px;
+    transition: fill var(--animation);
+  }
+  :hover .icon,
+  :focus .icon {
+    fill: var(--accent-color);
+  }
 }

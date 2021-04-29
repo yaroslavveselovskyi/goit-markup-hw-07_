@@ -11,16 +11,17 @@
   border: 1px solid #afb1b8;
   border-radius: 4px;
   transition: border-color var(--animation);
-}
-& .icon {
-  display: block;
-  padding: 0;
-  fill: #afb1b8;
-  transition: fill var(--animation);
-}
-&:hover,
-&:focus {
-  border-color: var(--accent-color);
+
+  .icon {
+    display: block;
+    padding: 0;
+    fill: #afb1b8;
+    transition: fill var(--animation);
+  }
+  :hover,
+  :focus {
+    border-color: var(--accent-color);
+  }
 }
 .clients__link {
   outline: px solid #afb1b8;
@@ -29,10 +30,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-&:hover .icon,
-&:focus .icon {
-  fill: var(--accent-color);
+
+  :hover .icon,
+  :focus .icon {
+    fill: var(--accent-color);
+  }
 }
 .clients__tittle {
   font-weight: 700;

@@ -9,10 +9,10 @@
   font-size: 26px;
   line-height: 1.38;
   letter-spacing: 0.03em;
-  color: var(--section__background-text-color);
+  color: var(--background-text-color);
 }
 .footer__address {
-  color: var(--section__background-text-color);
+  color: var(--background-text-color);
   margin-top: 20px;
 }
 .footer__item {
@@ -28,17 +28,18 @@
 .footer-icons {
   display: inline-flex;
   padding-right: -10px;
-}
-& .icon {
-  width: 20px;
-  height: 20px;
-  fill: var(--section__background-text-color);
-  transition: fill var(--animation);
+
+  .icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--background-text-color);
+    transition: fill var(--animation);
+  }
 }
 .footer-icons__tittle {
   font-weight: 700;
   line-height: 1.14;
-  color: var(--section__background-text-color);
+  color: var(--background-text-color);
   text-transform: uppercase;
   margin-bottom: 20px;
 }
@@ -51,14 +52,15 @@
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   transition: background-color var(--animation);
-}
-&:hover,
-&:focus {
-  background-color: var(--accent-color);
-}
-&:hover .icon,
-&:focus .icon {
-  fill: var(--section__background-text-color);
+
+  :hover,
+  :focus {
+    background-color: var(--accent-color);
+  }
+  :hover .icon,
+  :focus .icon {
+    fill: var(--background-text-color);
+  }
 }
 .footer-icons__item {
   margin-right: 10px;
@@ -78,7 +80,7 @@
   line-height: 1.17;
   text-transform: uppercase;
   text-align-last: left;
-  color: var(--section__background-text-color);
+  color: var(--background-text-color);
   padding-bottom: 20px;
 }
 .subscribe__input {
@@ -88,15 +90,16 @@
   border-radius: 4px;
   border: 1px solid rgba(255, 255, 255, 0.6);
   background-color: rgba(47, 48, 58, 1);
-  color: var(--section__background-text-color);
-}
-&::placeholder {
-  font-size: 16px;
-  line-height: 1.25;
-  display: flex;
-  align-items: center;
-  color: rgba(117, 117, 117, 0.5);
-  position: absolute;
+  color: var(--background-text-color);
+
+  ::placeholder {
+    font-size: 16px;
+    line-height: 1.25;
+    display: flex;
+    align-items: center;
+    color: rgba(117, 117, 117, 0.5);
+    position: absolute;
+  }
 }
 .subscribe__button {
   position: relative;
@@ -110,7 +113,7 @@
   letter-spacing: 0.06em;
   text-align: left;
   background-color: var(--accent-color);
-  color: var(--section__background-text-color);
+  color: var(--background-text-color);
   border-radius: 4px;
   border-color: var(--accent-color);
   transform: translateY(18px);
@@ -120,7 +123,7 @@
   position: absolute;
   width: 24px;
   height: 24px;
-  fill: var(--section__background-text-color);
+  fill: var(--background-text-color);
   margin-left: 10px;
   margin-right: 13px;
 }

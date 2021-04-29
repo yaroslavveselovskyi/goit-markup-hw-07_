@@ -740,7 +740,7 @@ textarea {
   position: relative;
   z-index: 2;
 }
-.gallery__portfolio__background {
+.gallery__background {
   position: absolute;
   display: flex;
   justify-content: center;

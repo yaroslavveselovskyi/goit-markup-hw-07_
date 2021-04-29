@@ -9,12 +9,13 @@
   border: 0;
   transition: color var(--animation), background-color var(--animation),
     box-shadow var(--animation);
-}
-&:focus,
-&:hover {
-  color: var(--section__background-text-color);
-  background-color: var(--accent-color);
-  box-shadow: var(--box-shadow);
+
+  :focus,
+  :hover {
+    color: var(--section__background-text-color);
+    background-color: var(--accent-color);
+    box-shadow: var(--box-shadow);
+  }
 }
 .button__main {
   font-weight: 700;
